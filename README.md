@@ -262,5 +262,5 @@ Corresponding author: Mohammed Brahimi
 Email: mohamed.brahimi@ensia.edu.dz  
 Institution: National School of Artificial Intelligence (ENSIA), Algiers, Algeria
 
-Project website: https://agrichallenge.netlify.app  
+Project website: https://www.ensia.edu.dz/agri-challenge.html  
 GitHub: https://github.com/Agri-Challenge/agri-challenge-scripts-2024

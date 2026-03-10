@@ -242,7 +242,7 @@ If you use this code or the AgrI Challenge dataset in your research, please cite
              Lakhdari, Kheira and Benghanem, Abdelkader Nabil},
   journal = {arXiv preprint},
   year    = {2026},
-  url     = {https://arxiv.org/abs/XXXX.XXXXX}
+  url     = {https://arxiv.org/abs/2603.07356}
 }
 ```
 

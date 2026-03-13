@@ -1,6 +1,7 @@
 # AgrI Challenge -- Scripts and Baselines (2024)
 
-[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
+[![Code License: MIT](https://img.shields.io/badge/Code%20License-MIT-green.svg)](LICENSE)
+[![Dataset License: CC BY-NC 4.0](https://img.shields.io/badge/Dataset%20License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-red.svg)](https://pytorch.org/)
 
@@ -31,6 +32,8 @@ agri-challenge-scripts-2024/
 |-- 2.clean_duplicates.ipynb        # Remove duplicate images using perceptual hash rules
 |-- 3.build_resized_dataset.ipynb   # Resize and normalize the dataset to a uniform resolution
 |-- 4.agri_challenge_ctv_cli_v3.py  # CTV training script (TOTO and LOTO protocols)
+|-- .env.example                    # Example environment variables for optional W&B auth
+|-- LICENSE                         # MIT license for code in this folder
 |-- README.md
 ```
 
@@ -171,6 +174,14 @@ python 4.agri_challenge_ctv_cli_v3.py --scenario LOTO --architecture densenet --
 | `--no-mixed-precision` | -- | Disable automatic mixed precision (AMP) |
 
 **Weights and Biases:** If W&B logging is enabled (default when `wandb` is installed), authentication is handled via the `WANDB_API_KEY` environment variable or an interactive `wandb login` prompt. No API keys are stored in the code.
+
+You can use the included `.env.example` as a template:
+
+```bash
+cp .env.example .env
+```
+
+Then set `WANDB_API_KEY` in `.env` (or export it directly in your shell) before running training.
 
 ### Outputs
 

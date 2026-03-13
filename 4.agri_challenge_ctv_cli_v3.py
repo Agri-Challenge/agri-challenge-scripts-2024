@@ -23,6 +23,7 @@ import os
 import json
 import time
 import random
+import copy
 import warnings
 from pathlib import Path
 from datetime import datetime
@@ -649,7 +650,8 @@ def train_model(model, train_loader, val_loader, test_loader, config, device, wa
         
         if val_acc > best_val_acc:
             best_val_acc = val_acc
-            best_model_state = model.state_dict().copy()
+            # Deep copy tensors to preserve the true best checkpoint state.
+            best_model_state = copy.deepcopy(model.state_dict())
             patience_counter = 0
         else:
             patience_counter += 1

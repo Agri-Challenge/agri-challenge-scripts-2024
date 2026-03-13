@@ -11,8 +11,8 @@ Official code repository for the paper:
 > Mohammed Brahimi, Karim Laabassi, Mohamed Seghir Hadj Ameur, Aicha Boutorh, Badia Siab-Farsi,  
 > Amin Khouani, Omar Farouk Zouak, Seif Eddine Bouziane, Kheira Lakhdari, Abdelkader Nabil Benghanem  
 > *arXiv preprint, 2026*  
-> Paper: https://arxiv.org/abs/XXXX.XXXXX (available upon publication)  
-> Website: https://agrichallenge.netlify.app
+> Paper: https://arxiv.org/abs/2603.07356
+> Website: https://www.ensia.edu.dz/agri-challenge.html
 
 ---
 
@@ -53,7 +53,7 @@ The AgrI Challenge dataset contains **50,673 field images** across **6 tree spec
 | Pistachio tree | *Pistacia vera* | Pistachier |
 | Tipu tree | *Tipuana tipu* | Tipu |
 
-The dataset is available upon request. Please submit an access request at the project website: https://agrichallenge.netlify.app
+The dataset is available upon request. Please submit an access request at the project website: https://www.ensia.edu.dz/agri-challenge.html
 
 ---
 
@@ -253,7 +253,7 @@ If you use this code or the AgrI Challenge dataset in your research, please cite
              Lakhdari, Kheira and Benghanem, Abdelkader Nabil},
   journal = {arXiv preprint},
   year    = {2026},
-  url     = {https://arxiv.org/abs/XXXX.XXXXX}
+  url     = {https://arxiv.org/abs/2603.07356}
 }
 ```
 
@@ -273,5 +273,5 @@ Corresponding author: Mohammed Brahimi
 Email: mohamed.brahimi@ensia.edu.dz  
 Institution: National School of Artificial Intelligence (ENSIA), Algiers, Algeria
 
-Project website: https://agrichallenge.netlify.app  
+Project website: https://www.ensia.edu.dz/agri-challenge.html  
 GitHub: https://github.com/Agri-Challenge/agri-challenge-scripts-2024
